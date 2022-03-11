@@ -30,7 +30,7 @@ public class CustomListTest {
         City city = new City("Spruce Grove", "AB");
         assertEquals(list.getCount(),0);
         list.addCity(city);
-        assertEquals(list.getCount(), 0);
+        assertEquals(list.getCount(), 1);
     }
 
     @Test
